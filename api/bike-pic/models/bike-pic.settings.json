@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bike_pics",
+  "info": {
+    "name": "BikePic"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "PicDescription": {
+      "type": "string"
+    },
+    "map": {
+      "type": "json"
+    }
+  }
+}

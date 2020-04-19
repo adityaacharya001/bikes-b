@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bikes",
+  "info": {
+    "name": "Bike"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "bikeName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "product_face": {
+      "model": "product-face"
+    }
+  }
+}

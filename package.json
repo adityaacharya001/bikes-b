@@ -1,0 +1,38 @@
+{
+  "name": "bikes-b",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start:dev": "starapi start",
+    "start": "NODE_ENV=production starpi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.0.0-beta.20",
+    "strapi-admin": "3.0.0-beta.20",
+    "strapi-utils": "3.0.0-beta.20",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.20",
+    "strapi-plugin-content-manager": "3.0.0-beta.20",
+    "strapi-plugin-users-permissions": "3.0.0-beta.20",
+    "strapi-plugin-email": "3.0.0-beta.20",
+    "strapi-plugin-upload": "3.0.0-beta.20",
+    "strapi-connector-bookshelf": "3.0.0-beta.20",
+    "knex": "<0.20.0",
+    "pg": "latest"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "c06cdd90-1bad-405c-a674-b98bd1f33524"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
